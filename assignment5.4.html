@@ -1,0 +1,33 @@
+<!DOCTYPE html>       <!--doctype declaration-->
+<html>                <!--html start tag-->
+<head>
+<title>
+
+Assignment 5.4 </title>
+
+
+<script src="empdetails.js" type="text/javascript">       <!--importing external js file>
+</script>
+</head>
+
+<body>                                                         <!--body start tag-->
+<script>
+ emp=new Employee("Ram","Developer",50000);                      <!--creating object-->
+
+</script>
+<p style="font-size:20px">
+Click for printing details!
+<button onclick="emp.printdetails()">Click me!</button>
+</p>
+<p style="font-size:20px">
+
+Click for changing salary!
+<button onclick="emp.change_salary(60000)">Click me!</button>
+</p>
+<p style="font-size:20px">
+Click for displaying final details!
+<button onclick="emp.final_details()">Click me!</button>
+</p>
+</body>                                                          <!--body end tag-->
+
+</html>                                                              <!--html end tag-->
